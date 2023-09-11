@@ -1,5 +1,7 @@
 # mark-flaky-tests
 
+![build status](https://img.shields.io/github/actions/workflow/status/GoldsteinE/mark-flaky-tests/main.yml)
+
 <!-- cargo-rdme start -->
 
 There're some tests that sometimes pass and sometimes fail. We call them "flaky".

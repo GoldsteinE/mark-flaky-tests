@@ -62,7 +62,6 @@
           audit = craneLib.cargoAudit {
             inherit src advisory-db;
           };
-
         };
 
         devShells.default = craneLib.devShell {
