@@ -1,0 +1,18 @@
+[package]
+name = "mark-flaky-tests-macro"
+version = "1.0.0"
+description = "Mark, debug and auto-retry your flaky tests (proc-macro crate)"
+authors = ["Maximilian Siling <root@goldstein.rs>"]
+repository = "https://github.com/GoldsteinE/mark-flaky-tests/"
+license = "MIT OR Apache-2.0"
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro-crate = "1"
+proc-macro-error = "1"
+proc-macro2 = "1"
+quote = "1"
+syn = { version = "2", features = ["full"] }

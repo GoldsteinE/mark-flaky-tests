@@ -1,0 +1,24 @@
+[package]
+name = "mark-flaky-tests"
+version = "1.0.0"
+description = "Mark, debug and auto-retry your flaky tests"
+authors = ["Maximilian Siling <root@goldstein.rs>"]
+repository = "https://github.com/GoldsteinE/mark-flaky-tests/"
+license = "MIT OR Apache-2.0"
+keywords = ["test", "tests", "flaky", "macro"]
+categories = ["development-tools", "development-tools::testing"]
+edition = "2021"
+
+[features]
+tokio = ["futures"]
+
+[workspace]
+members = ["macro"]
+
+[dependencies]
+mark-flaky-tests-macro = { version = "1", path = "macro" }
+futures = { version = "0.3", optional = true }
+
+[dev-dependencies]
+paste = "1.0.14"
+tokio = { version = "1", features = ["rt", "macros"] }
