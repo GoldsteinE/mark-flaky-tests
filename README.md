@@ -1,4 +1,6 @@
 ![build status](https://img.shields.io/github/actions/workflow/status/GoldsteinE/mark-flaky-tests/main.yml)
+[![docs.rs](https://img.shields.io/docsrs/mark-flaky-tests)](https://docs.rs/mark-flaky-tests)
+![license is MIT or Apache 2.0](https://img.shields.io/crates/l/mark-flaky-tests)
 
 # mark-flaky-tests
 
