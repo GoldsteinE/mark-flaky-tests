@@ -1,6 +1,6 @@
 [package]
 name = "mark-flaky-tests-macro"
-version = "1.0.0"
+version = "1.0.1"
 description = "Mark, debug and auto-retry your flaky tests (proc-macro crate)"
 authors = ["Maximilian Siling <root@goldstein.rs>"]
 repository = "https://github.com/GoldsteinE/mark-flaky-tests/"
