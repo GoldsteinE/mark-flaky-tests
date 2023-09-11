@@ -1,6 +1,6 @@
-# mark-flaky-tests
-
 ![build status](https://img.shields.io/github/actions/workflow/status/GoldsteinE/mark-flaky-tests/main.yml)
+
+# mark-flaky-tests
 
 <!-- cargo-rdme start -->
 
